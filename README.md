@@ -1,16 +1,81 @@
-# React + Vite
+# 🌌 Portfolio 3D --- Three.js & React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi proyecto personal de portafolio interactivo, donde combino
+**React**, **Three.js** y **TailwindCSS** para crear una experiencia
+visual inmersiva que refleja mi perfil como desarrollador full-stack y
+diseñador de software.
 
-Currently, two official plugins are available:
+Incluye animaciones 3D en tiempo real, tipografías estilo "prompt" y
+secciones dinámicas que presentan mi trabajo y habilidades.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   ✨ **Animación con Three.js** (sol, luna, nubes, y elementos
+    interactivos)\
+-   🎨 **UI moderna con TailwindCSS**\
+-   ⌨️ **Tipografía estilo máquina de escribir/prompt**\
+-   📱 **Diseño responsive** para desktop y mobile\
+-   ⚡ **Lazy loading con Suspense** para optimizar la carga\
+-   🧭 **React Router v6** para la navegación
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estructura del proyecto
+
+``` bash
+/src
+ ├── components/      # Componentes reutilizables (Layout, Hero, etc.)
+ ├── pages/           # Páginas principales (Home, About, etc.)
+ ├── assets/          # Logos, imágenes, texturas
+ ├── styles/          # Estilos globales (Tailwind, fuentes)
+ └── App.jsx          # Configuración de rutas y Layout
+```
+
+------------------------------------------------------------------------
+
+## ⚙️ Instalación y uso
+
+Clona el repo y correlo localmente:
+
+``` bash
+# Clonar repositorio
+git clone https://github.com/tu-usuario/portfolio-3d.git
+
+# Entrar en el proyecto
+cd portfolio-3d
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor local
+npm run dev
+```
+
+Luego abre en tu navegador:\
+👉 <http://localhost:5173>
+
+------------------------------------------------------------------------
+
+## 🛠️ Tecnologías utilizadas
+
+-   [React](https://react.dev/)\
+-   [Three.js](https://threejs.org/)\
+-   [TailwindCSS](https://tailwindcss.com/)\
+-   [Vite](https://vitejs.dev/)
+
+------------------------------------------------------------------------
+
+## 📸 Screenshots
+
+*(Agrega capturas de tu portafolio en acción aquí)*
+
+------------------------------------------------------------------------
+
+## ✨ Autor
+
+Desarrollado por **Nicolás Vela**\
+💻 Full-stack developer & software designer\
+🌍 [LinkedIn](https://www.linkedin.com/in/nicolasvela) \|
+[GitHub](https://github.com/nicolasvelah)
