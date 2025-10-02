@@ -6,7 +6,7 @@ import { useLoader } from '@react-three/fiber'
 export default function Moon({
   position = [0, 0, 0],
   radius = 1,
-  textureUrl = `${(import.meta as ImportMeta & { env: { BASE_URL: string } }).env.BASE_URL}images/texture-moon-2.jpg`, // cámbialo por tu ruta
+  textureUrl = `${(import.meta as ImportMeta & { env: { BASE_URL: string } }).env.BASE_URL}images/textures/texture-moon-2.jpg`, // cámbialo por tu ruta
 }: {
   position?: [number, number, number]
   radius?: number
