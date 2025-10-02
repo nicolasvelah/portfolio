@@ -1,0 +1,26 @@
+{
+  "name": "Nicolás Vela",
+  "role": "Digital Craftsman",
+  "stack": "React · Vue · Angular · Node · .NET · Azure · AI",
+  "location": "Ecuador",
+  "summary": "Frontend powerhouse with strong backend (.NET/Node/Kotlin). Working as a team with IA, for build faster, beauty and better code",
+  "hero": {
+    "headline": "Hi, I'm Nicolás Vela, a Digital Craftsman and I love creating new things!"
+  },
+  "bio": {
+    "subheadline": "Artist / Developer / Designer",
+    "detail": "I’m a _Digital Craftsman_: a full-stack developer and software designer with 19+ years of experience building clean, scalable, and user-centric solutions.\n\nMy expertise spans **front-end architecture** (design systems, custom CSS frameworks, advanced UI/UX, 3D experiences with Three.js) and **back-end engineering** (Azure, .NET, Node.js, DevOps pipelines, cloud infrastructure). I bridge **design sensitivity and engineering rigor**, ensuring code quality matches user experience.\n\nBeyond tech, I’m also a **creative and entrepreneur**: I produce music, design comics, and drive community-focused art projects in Galápagos. This mix allows me to see technology not just as code, but as a way to **tell stories, solve problems, and create cultural impact**.\n\n&nbsp; \n\nI like to describe myself simply:\n\n &nbsp; \n\n- 🚀 I build robust and scalable systems\n- 🎨 I design clean, usable interfaces\n- 🌱 I create artistic and community projects"
+  },
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "links": {
+    "github": "https://github.com/nicolasvelah",
+    "portfolio": "https://sites.google.com/view/nicolsvela/home",
+    "email": "mailto:nicolasvelah@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nicolas-vela-968a4347/"
+  }
+}

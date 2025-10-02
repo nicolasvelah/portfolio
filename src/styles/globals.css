@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lecton:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #202023;
+  color: #fff;
+  line-height: 1.6;
+}
+.bg-canvas canvas { filter: saturate(1.15) brightness(1.05); }
+.hero .container { padding: 0; max-width: 1200px; margin: 0 auto; }
+.headline {
+  background-color: #39393F; padding: 10px; text-align: center; 
+}
+.font-lekton{
+  font-family: 'Lekton', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+}
