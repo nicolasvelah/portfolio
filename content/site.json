@@ -3,6 +3,8 @@
   "role": "Digital Craftsman",
   "stack": "React · Vue · Angular · Node · .NET · Azure · AI",
   "location": "Ecuador",
+  "email": "nicolasvelah@gmail.com",
+  "website": "https://nicolasvelah.github.io/portfolio/",
   "summary": "Frontend powerhouse with strong backend (.NET/Node/Kotlin). Working as a team with IA, for build faster, beauty and better code",
   "hero": {
     "headline": "Hi, I'm Nicolás Vela, a Digital Craftsman and I love creating new things!"
@@ -21,6 +23,8 @@
     "github": "https://github.com/nicolasvelah",
     "portfolio": "https://sites.google.com/view/nicolsvela/home",
     "email": "mailto:nicolasvelah@gmail.com",
-    "linkedin": "https://www.linkedin.com/in/nicolas-vela-968a4347/"
+    "linkedin": "https://www.linkedin.com/in/nicolas-vela-968a4347/",
+    "whatsapp": "https://wa.me/593996011073",
+    "phone": "593 996011073"
   }
 }
