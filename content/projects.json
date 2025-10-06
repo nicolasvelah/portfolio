@@ -53,10 +53,8 @@
       "period": { "start": null, "end": null, "ongoing": false },
       "stack": ["UX/UI", "React Native / Mobile", "Design System"],
       "highlights": ["Welcome flow and emergency assistance CTA.", "Policy overview, history and contact actions."],
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdYlJQvP5hWsW12WBpUDpBvEoWOka6x63_rV7-RVQGqsmsPQWDVLUX-0_G8TNoFI8dE012iOUzCADxpqrdq2xHwQMlULpcU7JUbWbcV2StA1pBWYXYom1aA21wB9F7VB1o7ixjxVQzEA5JOh7-umsmT6TgL-IR_lzuAcFHTXMvz5aItol8kPYXOZDzI_0Z2KikUoiw0GWCNfJBTWJHEMCCOYOXi1yJIuVdo_=w1280",
-      "images": [
-        "https://lh3.googleusercontent.com/sitesv/AICyYdYlBy6mlunrjH177qf_KVv-HDxmfxfIEA0OExmKC9AILbqbNDgX0g47x2_wZZxMA3gu8gOsyJLic6Lr-hs4Ux0gQoWfFPuaAdHJTEF4oxiAJXJPz7g84TR1r_tajKQ9kK4EjhSGVKn5sJ8l_H9tPj4TkPrKiyWQDscR7zIepbT8_IRtqz_V2LZ5DqmGNHxqAMyMSmTootKVmnZJK3hOdy02b1OnNMsOMnBG%3Dw1280"
-      ]
+      "cover": "/images/projects/aseguradora-del-sur-app-cover.png",
+      "images": []
     },
     {
       "id": "vehicle-assistance-monitoring",
@@ -66,7 +64,7 @@
       "period": { "start": null, "end": null, "ongoing": false },
       "stack": ["Web App", "Operations Dashboard", "SLA Tracking"],
       "highlights": ["Assistance cases board with timers and statuses.", "Case detail with contact and policy info."],
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdZe1enY75jShCB_RwOob4IFJxeXIsLGFv2BsCMVTGREDe9Gy11QGeibBRQf8EvvdSU1jNLMoa7jF7o76kQNXHSRVgmVNY4ZP0o5W0Bte7cvLvPSU9tP-GeFGMlVhO649L2FeB4wq2lovaoyw1XJZ3pkvyH-G4y1tzEdbj9yDbyUkRHxuP9qxW1h2MKyl13yjVZ5eTo9PLTS3JsCt7WtvxXrcVn7djBnyMLsry8%3Dw1280"
+      "cover": "/images/projects/company-vehicle-assistance-cover.png"
     },
     {
       "id": "crm-vehicle-selling",
@@ -76,14 +74,14 @@
       "period": { "start": null, "end": null, "ongoing": false },
       "stack": ["CRM", "Sales Pipeline", "Reports"],
       "highlights": ["Vehicle catalog, leads and credit requests.", "Charts and goals configuration."],
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdYm-3Th7kgeTx5o5oFZv4ZWiLbb7Tl-O1GKxmd2kC9c_3hTe--TsQR_kR2--r7izqD3qZgWBebjv-BGCrXtBJeATHBxV7D34cySQ9c5xbRHu6BejcTNFG8--2yzWUy0deVGVXVoXgs-1wIZC6cwabxc-wGKwSNcPOYIfzJ4lySEK0Ilera6up16VHNEZFSbqsI1hR7UZHqerSttcwQYEUchV_RZDCVZSbIQ%3Dw1280"
+      "cover": "/images/projects/crm-vehicle-selling-cover.png"
     },
     {
       "id": "mitsubishi-mx-proposal",
       "title": "Mitsubishi MX – Web Proposal",
       "category": "client",
       "subcategory": "design",
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdY-hvSD-ii4wcGIHOJrDphGa8bv-jd1G5Xb_8sbCUIFK9xnWpDUFEZBEttVBc6XT8dmONMEiebxpoIj8wg6IOkhaj7JG5JMgN8-hB10cAd1ymWynsy_0vmVWMOgBlmKDocsEYl82MY_nkJu8rdCUawcEiYsXtd0iR5psJ6wkxN2Dhn_IIHGtbt1QUs%3Dw1280"
+      "cover": "/images/projects/Mitsubishi-MX-Proposal.jpg"
     },
     {
       "id": "movistar-ec",
@@ -104,14 +102,14 @@
         "obo": "http://www.obo.com.ec/login",
         "medusa": "https://www2.movistar.com.ec/medusa/tentaculo/token/solicitud/user/pass"
       },
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdZuHXIO6iN5LSRtq7nZqdTxG5hu36DxfTxpSpERUrQvoYDNxtI2onJHpbAGMfdKkzL0mlsccJJtb557m-tfbnEUb3NgyL07g4ZPpWaff01WczXQBy0I_DfU8y9mPIC99H54GrW5nflvhIkNIHY1kS_mXC-HWOj61fELu_IWEojbxQTg7hDsLLVJ0ExcHmOvck0fTKEU27StbF-Uz0lo4_OUGm_fVI4V_w%3Dw1280"
+      "cover": "/images/projects/movistar-ec-cover.png"
     },
     {
       "id": "living-man-santander",
       "title": "Living Man – Campaign Visual (Santander)",
       "category": "client",
       "subcategory": "design",
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdbCHk_8C8XO0zObSQm6i154_a2Br4f-U65q1DqyiKPeTbrWTMFFg8bFP60iu2YyB6CfiXri6tH02SR3bHJ07z73ziXEaxf4JrY42owaN-rStynv81FiRsZK2ac8bELqgrp0XCJdnwdV2oYkHb9WQt2aPq8hNDq88OmFfm9ErGU7mLVx_48dzE-T8Kc%3Dw1280"
+      "cover": "/images/projects/santander.jpg"
     },
     {
       "id": "medusa-token-service",
@@ -119,21 +117,21 @@
       "category": "client",
       "subcategory": "api",
       "links": { "site": "https://www2.movistar.com.ec/medusa/tentaculo/token/solicitud/user/pass" },
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdYNffiITDdLzjY6fFdAxTQXn0GKxQLHsjNc685BhDqR1GsJNap2TOjDMSdg35bPeYlrXhMmJIfpY292DVYI2rOhAKs4JjKd65k-zrt5smOD3DmO9YhSoevpUltaWguo4Quwwa0znjFZtNlqyvPFIiJiwQ06bQKQhKg-8tDYc6KByY8W442A_IvF1ff3eKU6CH-8jTW4ELqwWWYxYvJfMUyKFySglVzPpK3H%3Dw1280"
+      "cover": "/images/projects/medusa-token-service-cover.png"
     },
     {
       "id": "art-and-drawing",
       "title": "Art & Drawing – Selected Works",
       "category": "design",
       "subcategory": "art",
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdYEnXGTlmoAKlsxRIBZe1GxDN6NHnLXZ2CWnWoZIfb0NN3jzhP196wc8HfW4RGyorMKFP3x3sg6F_MRdsZIdeBe3GaDx-KwvDl_mXdXYxLIU0E5YPTAyVzSVQ6OeenU6K-ezxn0cvrhgC0HoAYm0Hqwsrsn0Fv8t4C-KMMCgrjf4IOeaE88r1od52xRFDT0szMMkkAWDd2xL9JrpXQP6B-mKC4JDB_OlqnQ%3Dw1280"
+      "cover": "/images/projects/eljunta.jpg"
     },
     {
       "id": "print-graphic-design",
       "title": "Print Graphic Design – Selected Pieces",
       "category": "design",
       "subcategory": "print",
-      "cover": "https://lh3.googleusercontent.com/sitesv/AICyYdbnnexSatelT2UvgWibfMZdAQuiMCmPhgqnBLSktbkj1PIbW2vxJYkqQtMSiS2KnyJzQ-XhIGFwxEfoITOYbUS3RkamTqlApHgFDnNynmrJicZ6CuHeNOQw07Iaqls7hcx4AeU5rAdZv9UW51lTmZUqM5HYAQ0JbiFrOQZ6FXp-cMxTlyuahboPjm6E-y38kqVZ5hWLFJo640_Ob5x_pd2lueyucTx5BqKZwTw%3Dw1280"
+      "cover": "/images/projects/design.jpg"
     },
 
     {
