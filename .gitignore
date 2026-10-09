@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Notas internas (nombres de clientes confidenciales)
+notes/

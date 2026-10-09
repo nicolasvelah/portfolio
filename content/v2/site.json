@@ -1,0 +1,271 @@
+{
+  "_brandsPendingApproval": [
+    "Aseguradora del Sur",
+    "Maresa",
+    "Nissan",
+    "Casabaca",
+    "Mitsubishi",
+    "Aerialoop",
+    "PAS HQ",
+    "Movistar Ecuador",
+    "Telefónica",
+    "Fundación Telefónica",
+    "Diners Club",
+    "Banco Santander",
+    "Kia Ecuador",
+    "PwC",
+    "Cooperativa JEP",
+    "Ecuatoriana de Aviación",
+    "Cooperativa Andalucía",
+    "Hotel Quito",
+    "MIES",
+    "Arte en Cumbayá",
+    "Peugeot – Auto France Ecuador"
+  ],
+  "_employersNamed": [
+    "Capmation",
+    "ITZAM",
+    "PPM",
+    "Ariadna Communication Group"
+  ],
+  "_h1Alternatives": [
+    "Design engineer. Trained as a graphic designer, shipping front-end for 20 years.",
+    "Front-end engineer, formally trained as a graphic designer.",
+    "Front-end engineer with a formal graphic design background.",
+    "Design engineer: graphic designer by training, front-end engineer by trade."
+  ],
+  "_openQuestions": [
+    "[TODO: confirm with Nicolas — is \"El Junta\" your alias? Needed before the illustration strip credits it.]",
+    "[TODO: confirm with Nicolas — Capmation permission to publish the Document Folders and AI-TimeTracker recreations.]",
+    "[TODO: confirm with Nicolas — approval for every brand in _brandsPendingApproval.]",
+    "[TODO: confirm with Nicolas — what does the AI do in AI-TimeTracker? If nothing user-facing, rename the Now block (e.g. 'TimeTracker') and frame AI as the build method.]"
+  ],
+  "name": "Nicolás Vela",
+  "role": "Design Engineer · Principal Engineer",
+  "hero": {
+    "h1": "I cut the paper. Then I write the code.",
+    "sub": "From hand-written IE6 fixes to React and TypeScript architecture. Principal Engineer at Capmation today.",
+    "ctas": [
+      {
+        "label": "See the work",
+        "href": "#work",
+        "variant": "primary"
+      },
+      {
+        "label": "Download CV",
+        "href": "/cv.pdf",
+        "variant": "secondary",
+        "download": true
+      }
+    ],
+    "colophon": {
+      "scene": "Paper scene cut by hand, rendered in the browser.",
+      "credit": "Linocut crowd by Clara Hidalgo."
+    },
+    "kicker": "Design Engineer · Quito, Ecuador",
+    "h1Lines": [
+      "I cut the paper.",
+      "Then I write",
+      "the code."
+    ],
+    "lede": "Front-end engineer with a formal graphic design background. I build interfaces that are both pixel-perfect and production-grade."
+  },
+  "skills": {
+    "intro": "One person, both columns. The bridge is where the work happens.",
+    "design": [
+      {
+        "capability": "Visual systems & typography",
+        "detail": "Grids, type scales, color systems, brand application.",
+        "tools": [
+          "Figma",
+          "Illustrator"
+        ]
+      },
+      {
+        "capability": "UX flows & information architecture",
+        "detail": "Business-process maps turned into sitemaps, flows and wireframes.",
+        "tools": [
+          "draw.io",
+          "Figma",
+          "Adobe XD"
+        ]
+      },
+      {
+        "capability": "Prototyping",
+        "detail": "Hi-fi screens and component specs before a line of code.",
+        "tools": [
+          "Figma",
+          "Adobe XD",
+          "Sketch"
+        ]
+      },
+      {
+        "capability": "Illustration & print",
+        "detail": "Formal training in advertising design. Identity manuals, editorial illustration, signage.",
+        "tools": [
+          "Illustrator",
+          "Photoshop"
+        ]
+      }
+    ],
+    "engineering": [
+      {
+        "capability": "React & TypeScript architecture",
+        "detail": "Component architecture, state, UI standards across teams.",
+        "tools": [
+          "React 16–18",
+          "TypeScript",
+          "Tailwind",
+          "SCSS"
+        ]
+      },
+      {
+        "capability": "Vue, Nuxt & Angular",
+        "detail": "From AngularJS to modern Angular, Vue 2 and 3.",
+        "tools": [
+          "Vue",
+          "Nuxt",
+          "Angular"
+        ]
+      },
+      {
+        "capability": "APIs & real-time",
+        "detail": "Node and .NET back ends, WebSockets for live tracking and chat.",
+        "tools": [
+          "Node",
+          "Express",
+          "Fastify",
+          ".NET",
+          "Socket.io"
+        ]
+      },
+      {
+        "capability": "Azure, CI/CD & auth",
+        "detail": "Pipelines from zero, Entra ID with role-based access, secrets in Key Vault.",
+        "tools": [
+          "GitHub Actions",
+          "Azure DevOps",
+          "Entra ID",
+          "Key Vault",
+          "Docker"
+        ]
+      },
+      {
+        "capability": "Performance & accessibility",
+        "detail": "Core Web Vitals budgets, Lighthouse, semantic markup.",
+        "tools": [
+          "Lighthouse",
+          "Core Web Vitals"
+        ]
+      }
+    ],
+    "bridge": [
+      "I spec components in Figma with the props they'll have in code.",
+      "I map the business process before I draw a screen. The map becomes the state machine.",
+      "In 2015 I wrote a utility-first CSS framework so banners couldn't break the brand."
+    ],
+    "aiNative": {
+      "title": "AI-native",
+      "line": "Daily: GitHub Copilot, Claude, ChatGPT. Built with: Azure AI Foundry, Airia, RAG architectures."
+    },
+    "bridgeCards": {
+      "design": [
+        "Visual systems & typography",
+        "UX flows & IA",
+        "Prototyping in Figma, XD, Sketch",
+        "Illustration & print"
+      ],
+      "engineering": [
+        "React & TypeScript architecture",
+        "Vue, Nuxt, Angular",
+        "Node, .NET & Python APIs",
+        "Azure, CI/CD, auth",
+        "Performance & a11y"
+      ],
+      "aiTools": [
+        "GitHub Copilot",
+        "Claude",
+        "Azure AI Foundry",
+        "Airia",
+        "RAG architectures"
+      ]
+    }
+  },
+  "experience": [
+    {
+      "role": "Principal Engineer · Design Engineering",
+      "company": "Capmation",
+      "years": "2023 – present",
+      "highlights": [
+        "Set front-end standards, CSS architecture and docs used across multiple teams.",
+        "Led AI-TimeTracker end to end: Director, PM and designer, then Tech Lead. Team grew from 2 to 5.",
+        "Prototyped a compliance platform in Figma, then built it in Angular and .NET."
+      ]
+    },
+    {
+      "role": "Tech PM & React Lead",
+      "company": "ITZAM",
+      "years": "2018 – 2022",
+      "highlights": [
+        "Led a team of 8 across up to 4 simultaneous projects.",
+        "Front-end lead on every major delivery: Aseguradora del Sur, Maresa, PAS HQ.",
+        "Turned business-process maps into UX proposals in XD and Sketch before building them."
+      ]
+    },
+    {
+      "role": "IT Director",
+      "company": "Ariadna Communication Group",
+      "years": "2015 – 2018",
+      "highlights": [
+        "Took over a team with no lead and no version control. Rolled out Git and JIRA across 10+ projects.",
+        "Introduced Scrum and Kanban with WIP limits, plus mandatory standards for contractors. Team of up to 10.",
+        "Cut Movistar catalog admin time by 50% with admin-driven Angular catalogs."
+      ]
+    }
+  ],
+  "experienceBefore": {
+    "years": "2006 – 2015",
+    "line": "Graphic designer, then creative director, then front-end developer and project manager. Print, identity and campaigns first; web products after. Also in 2018: senior full-stack developer at PPM (React systems for Diners Club)."
+  },
+  "education": {
+    "degree": "Advertising Graphic Design Technician",
+    "school": "Universidad Tecnológica Equinoccial (UTE)",
+    "years": "2003 – 2006",
+    "note": "Thesis: a visual identity manual and its web design."
+  },
+  "certifications": [
+    {
+      "name": "Microsoft Azure Fundamentals (AZ-900)",
+      "year": "2026",
+      "status": "Earned"
+    },
+    {
+      "name": "Microsoft Azure AI Fundamentals (AI-900)",
+      "year": "2026",
+      "status": "In progress"
+    },
+    {
+      "name": "OutSystems Associate Reactive Developer [TODO: confirm with Nicolas — CV says \"Associate\", brief says \"Certified\"]",
+      "year": "2024",
+      "status": "Earned"
+    },
+    {
+      "name": "Agile & Scrum (Platzi)",
+      "year": "2017",
+      "status": "Earned"
+    }
+  ],
+  "contact": {
+    "line": "Bring me the sketch. I'll bring it to production.",
+    "email": "nicolasvelah@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nicolas-vela-968a4347/",
+    "github": "https://github.com/nicolasvelah",
+    "cv": "/cv.pdf",
+    "location": "Quito, Ecuador · Remote (UTC−5)",
+    "locationLine": "Remote · Quito, Ecuador · UTC−5"
+  },
+  "manifesto": {
+    "text": "I learned composition with scissors and glue in 2003. Twenty years later, the browser is my paper and TypeScript is the blade.",
+    "highlight": "Twenty years later,"
+  }
+}

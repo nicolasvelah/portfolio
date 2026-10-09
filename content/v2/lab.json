@@ -1,0 +1,47 @@
+{
+  "title": "Lab",
+  "intro": "Things I build to find out how they work.",
+  "items": [
+    {
+      "slug": "support-agent",
+      "title": "Support agent that learns from its escalations",
+      "year": "2025",
+      "status": "Prototype",
+      "stack": [
+        "Vue 3",
+        "Python",
+        "RAG"
+      ],
+      "oneLiner": "An agent answers from a chunked knowledge base. What it can't answer goes to a human, and the human's answer goes back into the knowledge base. Fewer escalations every round.",
+      "_todo": "[TODO: confirm with Nicolas — any screenshots, demo or repo to show? Without material this stays text-only.]"
+    },
+    {
+      "slug": "et-css",
+      "title": "ET-CSS",
+      "year": "2015",
+      "status": "Shipped",
+      "stack": [
+        "Sass"
+      ],
+      "oneLiner": "My utility-first framework, years before Tailwind went mainstream.",
+      "detail": "605 lines of Sass. Set colors, breakpoints and ranges as variables; loops generate spacing, color, type, border, sizing, display and overflow utilities with responsive suffixes. It ran on several Movistar Ecuador sites in production. Not perfect: no grid, and one duplicated class I'd fix today.",
+      "_todo": "[TODO: confirm with Nicolas — any measure of time saved with ET-CSS]"
+    },
+    {
+      "slug": "how-the-hero-was-made",
+      "title": "How the hero was made",
+      "year": "2026",
+      "status": "In progress",
+      "stack": [
+        "Canvas 2D",
+        "requestAnimationFrame",
+        "Pillow",
+        "WebP"
+      ],
+      "oneLiner": "From scanned paper cutouts to an infinite canvas city.",
+      "detail": "The skyline is cut from paper and scanned, then tinted to the palette at build time with its texture and shadow baked in. Seven layers move at their own depth with the pointer and the scroll, all driven by one requestAnimationFrame loop that sleeps when nothing moves. In front walks a linocut crowd by Clara Hidalgo: 30 figures in one sprite atlas, drawn on a canvas. Tap one and it jumps. With prefers-reduced-motion everything holds still.",
+      "credit": "Linocut crowd by Clara Hidalgo",
+      "_todo": "[TODO: confirm with Nicolas — final weight and Lighthouse numbers once the hero is built; status is Shipped only after launch.]"
+    }
+  ]
+}

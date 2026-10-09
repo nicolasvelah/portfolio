@@ -1,0 +1,66 @@
+{
+  "title": "More shipped work",
+  "cards": [
+    {
+      "slug": "aerialoop",
+      "title": "Aerialoop",
+      "oneLiner": "Real-time drone-delivery tracking across mobile, web and B2B.",
+      "detail": "Package goes to a hub, flies drone port to drone port, lands at your door. Live 4-step tracking timeline, cancellation with a counter-offer, and a B2B console for orders and CSV uploads.",
+      "role": "[TODO: confirm with Nicolas — role, and whether this was via ITZAM]",
+      "stack": [
+        "Vue 3",
+        "TypeScript",
+        "Maps",
+        "Real-time",
+        "Linux server"
+      ],
+      "year": "[TODO: confirm with Nicolas — year]",
+      "status": "Shipped"
+    },
+    {
+      "slug": "gps-installers",
+      "title": "GPS installers · PAS HQ",
+      "oneLiner": "Field-ops platform with geo and photo proof of every install.",
+      "detail": "A web back office with a task kanban, a detail drawer showing arrival and closing photos with location, inventory with splittable cable boxes, and an iPhone app for technicians. Mexico.",
+      "role": "Tech PM & React Lead (ITZAM) [TODO: confirm with Nicolas — did you also design the wireframes?]",
+      "stack": [
+        "React 17",
+        "Flutter",
+        "TypeScript",
+        "Express"
+      ],
+      "year": "[TODO: confirm with Nicolas — year, within 2018–2022]",
+      "status": "Shipped"
+    },
+    {
+      "slug": "movistar-ecuador",
+      "title": "Movistar Ecuador",
+      "oneLiner": "Fully admin-driven Angular catalogs, −50% admin time.",
+      "detail": "Directed, maintained and built the public site on Liferay 6 Enterprise. Shipped the team's first Liferay portlet, a Slim PHP API, and the CSS framework that kept banners on brand.",
+      "role": "IT Director (Ariadna)",
+      "stack": [
+        "Liferay 6 EE",
+        "Angular 1",
+        "Slim PHP",
+        "Sass"
+      ],
+      "year": "[TODO: confirm with Nicolas — notes say 2015–2018, CV says 2016–2017]",
+      "status": "Shipped",
+      "_todo": "[TODO: confirm with Nicolas — Medusa: CV describes a 5-minute token generator; the old Google Site describes a T&C manager (72 h of 2 people → 30 min of 1). Two systems or one? Which can we cite?]"
+    },
+    {
+      "slug": "pegaso-obo",
+      "title": "Pegaso / OBO · Telefónica",
+      "oneLiner": "Order back office routing telco orders across call centers.",
+      "detail": "Web-form and call-center orders, from intake to delivery. Five roles, percentage-based distribution across call-center partners, pre-approval, CSV upload, 24-hour alerts, and automated customer calls over SOAP.",
+      "role": "IT Director (Ariadna): direction and development",
+      "stack": [
+        "Laravel 5.2",
+        "PHP",
+        "SOAP"
+      ],
+      "year": "2016",
+      "status": "Shipped"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Archive",
+  "intro": "More products and concepts, 2006 to today.",
+  "entries": [
+    {
+      "year": "2019",
+      "title": "Hombre Vivo · Banco Santander (Mexico)",
+      "type": "Web + mobile platform",
+      "status": "Concept",
+      "oneLiner": "Employee safety during incidents: everyone reports safe, hurt or in danger, and the incident only closes when all have answered. Built to an advanced stage; never launched."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year, notes say ~2019–20]",
+      "title": "Valiente! → Mujeres sin límites",
+      "type": "Mobile app",
+      "status": "Concept",
+      "oneLiner": "Safety app for women in three iterations: SOS, safe trip, safe-places map, video access to a doctor or lawyer, job network."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year]",
+      "title": "Video monitoring · Cooperativa JEP",
+      "type": "Web dashboard",
+      "status": "Concept",
+      "oneLiner": "Camera health dashboard with a map and a monitor grid."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year]",
+      "title": "Ecuatoriana de Aviación",
+      "type": "Mobile app",
+      "status": "Concept",
+      "oneLiner": "Airline app: flight search, my trips, check-in."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year, within 2018–2022]",
+      "title": "Chat and video calls · Maresa",
+      "type": "Web platform",
+      "status": "Shipped",
+      "oneLiner": "Customer chat and video-call platform. React 16, TypeScript back end."
+    },
+    {
+      "year": "2018",
+      "title": "Web systems · Diners Club (via PPM)",
+      "type": "Web apps",
+      "status": "Shipped",
+      "oneLiner": "React systems and weekly campaign sends by customer segment."
+    },
+    {
+      "year": "2016 – 2017",
+      "title": "Mi Comunidad Digital · Fundación Telefónica",
+      "type": "LMS",
+      "status": "Shipped",
+      "oneLiner": "WordPress + LearnPress learning platform, shipped with full handover docs."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year, within 2015–2018]",
+      "title": "SGC / CRM · Kia Ecuador",
+      "type": "Web platform",
+      "status": "Shipped",
+      "oneLiner": "CRM that receives every customer arriving at a dealer and guides the sales executive to a sale."
+    },
+    {
+      "year": "[TODO: confirm with Nicolas — year, within 2015–2018]",
+      "title": "Recruitment system · PwC",
+      "type": "Web platform",
+      "status": "Shipped",
+      "oneLiner": "Took over a stalled .NET project and delivered it in six months."
+    },
+    {
+      "year": "2015 – 2016",
+      "title": "Club me apunto · Cooperativa Andalucía",
+      "type": "E-commerce",
+      "status": "[TODO: confirm with Nicolas — Shipped or Concept?]",
+      "oneLiner": "Rewards-points redemption store and admin. AngularJS + Laravel."
+    },
+    {
+      "year": "2014 – 2015",
+      "title": "Hotel Quito",
+      "type": "Website + campaigns",
+      "status": "Shipped",
+      "oneLiner": "Creative direction, campaigns and the responsive WordPress site."
+    },
+    {
+      "year": "2008",
+      "title": "Public guide · MIES",
+      "type": "Print + illustration",
+      "status": "Shipped",
+      "oneLiner": "Layout and character illustration for a government guide."
+    },
+    {
+      "year": "2007",
+      "title": "Visual identity manual · Arte en Cumbayá",
+      "type": "Brand identity",
+      "status": "Shipped",
+      "oneLiner": "Identity manual, later followed by the website and online store (2011)."
+    },
+    {
+      "year": "2007",
+      "title": "Peugeot – Auto France Ecuador",
+      "type": "Website",
+      "status": "Shipped",
+      "oneLiner": "Website redesign and implementation."
+    }
+  ]
+}
