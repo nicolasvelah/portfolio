@@ -68,7 +68,8 @@
       "Then I write",
       "the code."
     ],
-    "lede": "Front-end engineer with a formal graphic design background. I build interfaces that are both pixel-perfect and production-grade."
+    "lede": "Front-end engineer with a formal graphic design background. I build interfaces that are both pixel-perfect and production-grade.",
+    "availability": "Open to remote roles"
   },
   "skills": {
     "intro": "One person, both columns. The bridge is where the work happens.",
@@ -178,7 +179,7 @@
       "engineering": [
         "React & TypeScript architecture",
         "Vue, Nuxt, Angular",
-        "Node, .NET & Python APIs",
+        "Node & .NET APIs",
         "Azure, CI/CD, auth",
         "Performance & a11y"
       ],

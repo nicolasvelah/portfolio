@@ -7,7 +7,8 @@ const shipped: ArchiveEntry[] = work.cards
   .map((c) => ({ year: c.year, title: c.title, type: 'Web platform', status: c.status, oneLiner: c.oneLiner }))
 
 export default function Archive() {
-  const entries = [...shipped, ...archive.entries]
+  // Más reciente primero; el orden se toma del primer año del rango ("2015 – 2018" → 2015)
+  const entries = [...shipped, ...archive.entries].sort((a, b) => clean(b.year).localeCompare(clean(a.year)))
   return (
     <section id="archive" aria-labelledby="archive-title" className="bg-surface pb-[clamp(110px,18vh,200px)] pt-[clamp(80px,14vh,160px)]">
       <div className="gutter">

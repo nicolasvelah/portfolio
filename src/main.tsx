@@ -1,10 +1,15 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot, hydrateRoot } from 'react-dom/client'
 import App from './App'
 import './styles.css'
 
-createRoot(document.getElementById('root')!).render(
+const root = document.getElementById('root')!
+const app = (
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )
+
+// En producción el HTML viene prerenderizado (scripts/prerender.mjs): se hidrata en vez de re-renderizar.
+if (root.hasChildNodes()) hydrateRoot(root, app)
+else createRoot(root).render(app)

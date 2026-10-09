@@ -41,6 +41,32 @@ export default function Lab() {
                 <Rich text={item.detail} />
               </p>
             )}
+            {item.scores && (
+              <div className="mt-5">
+                <dl className="grid grid-cols-4 gap-2 text-center">
+                  {item.scores.items.map((sc) => (
+                    <div key={sc.label} className="flex flex-col-reverse rounded-md bg-neutral-100 px-1 py-2.5">
+                      <dt className="mt-1.5 text-[10px] font-bold uppercase leading-tight tracking-[0.06em] text-neutral-700">{sc.label}</dt>
+                      <dd className="font-display text-[22px] leading-none text-sage-800">
+                        {sc.mobile}
+                        {sc.desktop !== sc.mobile && <span className="mt-1 block font-sans text-[10px] text-neutral-700">desktop {sc.desktop}</span>}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+                <p className="mt-2 text-xs text-neutral-700">{item.scores.note}</p>
+              </div>
+            )}
+            {item.link && (
+              <a
+                href={item.link.href}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 inline-flex w-fit items-center gap-1.5 font-semibold text-accent-700 underline decoration-accent-300 underline-offset-4 hover:text-accent-800"
+              >
+                {item.link.label} <span aria-hidden>↗</span>
+              </a>
+            )}
             <div className="mt-auto flex flex-wrap gap-1.5 pt-5">
               {item.stack.map((s) => (
                 <span key={s} className="chip">

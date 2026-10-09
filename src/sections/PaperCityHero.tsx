@@ -134,9 +134,19 @@ export default function PaperCityHero() {
       </Layer>
 
       <div ref={textRef} className="gutter relative z-[5] max-w-[1200px] pt-[clamp(96px,16vh,170px)] will-change-transform">
-        <p className="kicker intro-fade mb-[18px] text-sage-700" style={{ animationDelay: '650ms' }}>
-          {site.hero.kicker}
-        </p>
+        <div className="intro-fade mb-[18px] flex flex-wrap items-center gap-x-4 gap-y-2" style={{ animationDelay: '650ms' }}>
+          <p className="kicker text-sage-700">{site.hero.kicker}</p>
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 rounded-full bg-sage-200 px-3 py-1 text-[13px] font-bold text-sage-900 transition-colors hover:bg-sage-300"
+          >
+            <span aria-hidden className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sage-600 opacity-60 motion-reduce:animate-none" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-sage-700" />
+            </span>
+            {site.hero.availability}
+          </a>
+        </div>
         <h1 className="m-0 text-balance font-display font-normal leading-[0.94] tracking-[-0.02em] text-[clamp(46px,8.6vw,148px)]">
           {site.hero.h1Lines.map((line, i) => (
             <span key={line} className="block overflow-hidden pb-[0.06em]">

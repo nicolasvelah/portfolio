@@ -89,7 +89,7 @@ export function startCrowd(canvas: HTMLCanvasElement, base: string, onReady: () 
       ctx.save()
       ctx.translate(x + fw / 2, y + fh)
       ctx.rotate(Math.sin(p.phase) * 0.025)
-      if (p.dir === -1) ctx.scale(-1, 1)
+      // Sin espejar: los grabados son frontales y algunos llevan texto ("RESISTENCIA")
       ctx.drawImage(atlas, p.frame[0], p.frame[1], p.frame[2], p.frame[3], -fw / 2, -fh, fw, fh)
       ctx.restore()
     }

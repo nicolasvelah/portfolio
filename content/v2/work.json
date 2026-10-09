@@ -6,7 +6,7 @@
       "title": "Aerialoop",
       "oneLiner": "Real-time drone-delivery tracking across mobile, web and B2B.",
       "detail": "Package goes to a hub, flies drone port to drone port, lands at your door. Live 4-step tracking timeline, cancellation with a counter-offer, and a B2B console for orders and CSV uploads.",
-      "role": "[TODO: confirm with Nicolas — role, and whether this was via ITZAM]",
+      "role": "Freelance · product design, front-end & infrastructure",
       "stack": [
         "Vue 3",
         "TypeScript",
@@ -14,7 +14,7 @@
         "Real-time",
         "Linux server"
       ],
-      "year": "[TODO: confirm with Nicolas — year]",
+      "year": "2022",
       "status": "Shipped"
     },
     {
@@ -29,7 +29,7 @@
         "TypeScript",
         "Express"
       ],
-      "year": "[TODO: confirm with Nicolas — year, within 2018–2022]",
+      "year": "2019",
       "status": "Shipped"
     },
     {
@@ -44,7 +44,7 @@
         "Slim PHP",
         "Sass"
       ],
-      "year": "[TODO: confirm with Nicolas — notes say 2015–2018, CV says 2016–2017]",
+      "year": "2015 – 2018",
       "status": "Shipped",
       "_todo": "[TODO: confirm with Nicolas — Medusa: CV describes a 5-minute token generator; the old Google Site describes a T&C manager (72 h of 2 people → 30 min of 1). Two systems or one? Which can we cite?]"
     },

@@ -4,10 +4,6 @@ import siteJson from '../content/v2/site.json'
 import workJson from '../content/v2/work.json'
 import labJson from '../content/v2/lab.json'
 import archiveJson from '../content/v2/archive.json'
-import aseguradora from '../content/v2/case-studies/aseguradora-del-sur.md'
-import maresa from '../content/v2/case-studies/maresa-guc.md'
-import documentFolders from '../content/v2/case-studies/document-folders.md'
-import now from '../content/v2/now.md'
 export { projects } from '../content/v2/projects'
 export type { TrackProject, PhoneShot, StackShot, TrackMedia } from '../content/v2/projects'
 
@@ -20,6 +16,7 @@ export interface Site {
   role: string
   hero: {
     kicker: string
+    availability: string
     h1: string
     h1Lines: string[]
     lede: string
@@ -79,6 +76,8 @@ export interface LabItem {
   stack: string[]
   oneLiner: string
   detail?: string
+  link?: { label: string; href: string }
+  scores?: { note: string; items: { label: string; mobile: number; desktop: number }[] }
 }
 
 export interface ArchiveEntry { year: string; title: string; type: string; status: string; oneLiner: string }
@@ -88,12 +87,4 @@ export const work = workJson as { title: string; cards: WorkCard[] }
 export const lab = labJson as { title: string; intro: string; items: LabItem[] }
 export const archive = archiveJson as unknown as { title: string; intro: string; entries: ArchiveEntry[] }
 
-export const caseStudies = [aseguradora, maresa, documentFolders].map((m) => m.frontmatter as unknown as CaseStudy)
-export const nowBlock = now.frontmatter as unknown as NowBlock
-
-/** Bullets de impacto del bloque Now: la lista que precede a "About the screens". */
-export const nowImpact: string[] = now.body
-  .split('**About the screens.**')[0]
-  .split('\n')
-  .filter((l) => l.startsWith('- '))
-  .map((l) => l.slice(2).trim())
+// Los case studies (content/v2/case-studies/*.md) y now.md se cargarán en sus propias páginas /work/<slug>.

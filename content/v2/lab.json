@@ -31,7 +31,7 @@
       "slug": "how-the-hero-was-made",
       "title": "How the hero was made",
       "year": "2026",
-      "status": "In progress",
+      "status": "Shipped",
       "stack": [
         "Canvas 2D",
         "requestAnimationFrame",
@@ -41,7 +41,36 @@
       "oneLiner": "From scanned paper cutouts to an infinite canvas city.",
       "detail": "The skyline is cut from paper and scanned, then tinted to the palette at build time with its texture and shadow baked in. Seven layers move at their own depth with the pointer and the scroll, all driven by one requestAnimationFrame loop that sleeps when nothing moves. In front walks a linocut crowd by Clara Hidalgo: 30 figures in one sprite atlas, drawn on a canvas. Tap one and it jumps. With prefers-reduced-motion everything holds still.",
       "credit": "Linocut crowd by Clara Hidalgo",
-      "_todo": "[TODO: confirm with Nicolas — final weight and Lighthouse numbers once the hero is built; status is Shipped only after launch.]"
+      "_todo": "[TODO: confirm with Nicolas — final weight and Lighthouse numbers once the hero is built; status is Shipped only after launch.]",
+      "link": {
+        "label": "Read the source on GitHub",
+        "href": "https://github.com/nicolasvelah/portfolio"
+      },
+      "scores": {
+        "note": "Lighthouse 12, production build, October 2026. Mobile with simulated 4G and 4× CPU.",
+        "items": [
+          {
+            "label": "Performance",
+            "mobile": 96,
+            "desktop": 100
+          },
+          {
+            "label": "Accessibility",
+            "mobile": 96,
+            "desktop": 96
+          },
+          {
+            "label": "Best practices",
+            "mobile": 100,
+            "desktop": 100
+          },
+          {
+            "label": "SEO",
+            "mobile": 100,
+            "desktop": 100
+          }
+        ]
+      }
     }
   ]
 }

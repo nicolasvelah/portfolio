@@ -28,7 +28,7 @@ const html = `<!doctype html>
 @font-face{font-family:Figtree;font-weight:700;src:url('file://${fonts}/figtree-latin-700-normal.woff2') format('woff2')}
 @page{size:A4;margin:13mm 15mm 14mm}
 *{box-sizing:border-box}
-body{margin:0;font:400 9.1pt/1.45 Figtree,system-ui,sans-serif;color:#201e1d;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0;font:400 8.9pt/1.42 Figtree,system-ui,sans-serif;color:#201e1d;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 a{color:#8c491a;text-decoration:none}
 h1{font:400 30pt/1 Caprasimo,serif;margin:0 0 4pt;letter-spacing:-.01em}
 h1+p{margin:0;font-weight:700;color:#b2622d;font-size:11pt}
@@ -46,7 +46,7 @@ li::marker{color:#c67139}
 strong{font-weight:700}
 table{width:100%;border-collapse:collapse;margin:4pt 0 8pt;font-size:8.9pt;break-inside:auto}
 th{text-align:left;font-weight:700;color:#56633f;border-bottom:1pt solid #ccdbb2;padding:3pt 6pt 3pt 0}
-td{vertical-align:top;border-bottom:.5pt solid #eee7db;padding:3.5pt 6pt 3.5pt 0}
+td{vertical-align:top;border-bottom:.5pt solid #eee7db;padding:2.5pt 6pt 2.5pt 0}
 tr{break-inside:avoid}
 td:first-child{white-space:nowrap;color:#474238;width:1%}
 </style></head><body>${marked.parse(md, { breaks: true })}</body></html>`
